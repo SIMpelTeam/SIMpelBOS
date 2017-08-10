@@ -2,9 +2,8 @@
 Sistem Informasi Pelayanan Rumah Sakit Berbasis Open Source
 
 
-## [![Donate]]
-Bagi yang ingin mendonasikan untuk pengembangan aplikasi SIMpelBOS
+## Donasi
+Bagi yang ingin men[![Donate]]kan untuk pengembangan aplikasi SIMpelBOS
 Silahkan transfer ke rekening:
-- Bank BRI
 - An. Poentoro, S.Si
-- 1831-01-000112-53-0
+- Bank BRI 1831-01-000112-53-0
