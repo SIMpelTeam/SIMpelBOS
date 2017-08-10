@@ -821,7 +821,7 @@ REPLACE INTO `group_pengguna_akses_module` (`ID`, `GROUP_PENGGUNA`, `MODUL`, `ST
 -- Membuang data untuk tabel aplikasi.info_teks: ~1 rows (lebih kurang)
 /*!40000 ALTER TABLE `info_teks` DISABLE KEYS */;
 REPLACE INTO `info_teks` (`ID`, `TEKS`) VALUES
-	(1, 'Klinik Pagi RSIA ANANDA mulai jam 07:30 s.d 14:00 | Klinik Sore RSIA ANANDA mulai jam 14:00 s.d 21:00');
+	(1, '-');
 /*!40000 ALTER TABLE `info_teks` ENABLE KEYS */;
 
 -- Membuang data untuk tabel aplikasi.instansi: ~1 rows (lebih kurang)

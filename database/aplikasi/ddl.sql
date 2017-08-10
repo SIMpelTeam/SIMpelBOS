@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `automaticexecute` (
   `STATUS` tinyint(4) NOT NULL DEFAULT '0',
   `IS_PROSEDUR` tinyint(4) NOT NULL DEFAULT '0',
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=66 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Pengeluaran data tidak dipilih.
 -- membuang struktur untuk table aplikasi.group_pengguna_akses_module
@@ -99,7 +99,7 @@ CREATE TABLE IF NOT EXISTS `pengguna` (
   KEY `LOGIN` (`LOGIN`),
   KEY `NIK` (`NIK`),
   KEY `JENIS` (`JENIS`)
-) ENGINE=InnoDB AUTO_INCREMENT=174 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 -- Pengeluaran data tidak dipilih.
 -- membuang struktur untuk table aplikasi.pengguna_akses
@@ -111,7 +111,7 @@ CREATE TABLE IF NOT EXISTS `pengguna_akses` (
   PRIMARY KEY (`ID`),
   KEY `PENGGUNA` (`PENGGUNA`),
   KEY `GROUP_PENGGUNA_AKSES_MODULE` (`GROUP_PENGGUNA_AKSES_MODULE`)
-) ENGINE=InnoDB AUTO_INCREMENT=6270 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Pengeluaran data tidak dipilih.
 -- membuang struktur untuk table aplikasi.pengguna_akses_log
@@ -139,7 +139,7 @@ CREATE TABLE IF NOT EXISTS `pengguna_akses_ruangan` (
   KEY `PENGGUNA` (`PENGGUNA`),
   KEY `RUANGAN` (`RUANGAN`),
   KEY `STATUS` (`STATUS`)
-) ENGINE=InnoDB AUTO_INCREMENT=1989 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Pengeluaran data tidak dipilih.
 -- membuang struktur untuk table aplikasi.pengguna_log
@@ -152,7 +152,7 @@ CREATE TABLE IF NOT EXISTS `pengguna_log` (
   PRIMARY KEY (`ID`),
   KEY `PENGGUNA` (`PENGGUNA`),
   KEY `TANGGAL_AKSES` (`TANGGAL_AKSES`)
-) ENGINE=InnoDB AUTO_INCREMENT=48613 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Pengeluaran data tidak dipilih.
 -- membuang struktur untuk table aplikasi.printer_list
